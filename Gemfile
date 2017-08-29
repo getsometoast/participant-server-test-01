@@ -7,4 +7,4 @@ gem "sinatra"
 gem "shotgun"
 gem "rake"
 gem "http"
-
+gem "mongo"
