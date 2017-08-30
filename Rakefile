@@ -11,5 +11,5 @@ task :run do
 	collection.insert_one({ name: "cat name" })
 	collection.insert_one({ name: "cat name", image_url: "https://i.pinimg.com/736x/8e/d7/41/8ed7410285f101ba5892ff723c91fa75--life-is-beautiful-beautiful-eyes.jpg" })
 
-  `shotgun --port=6060 server.rb`
+  `shotgun --port=6060 server.rb -o 0.0.0.0`
 end
